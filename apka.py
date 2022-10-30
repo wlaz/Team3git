@@ -5,7 +5,9 @@ if wiek.isdigit() == False:
     exit("Wiek musi być liczbą")
 wiek = int(wiek)
 if wiek >= 18:
-    print("Witamy!")
+   	print("Witamy!") 
+elif wiek < 18:
+	print ("Zgoda od rodziców")
 
 płeć = input("podaj płeć: 'M' lub 'F': ")
 if płeć == 'F':
