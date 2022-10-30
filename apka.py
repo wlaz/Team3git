@@ -20,5 +20,15 @@ elif region =="EUR" and wiek <18:
     print("pochodzisz z regionu EUR ale masz 18 lub mniej lat wiecj nie dostajesz super ceny dla USA ")
 elif region =="USA" and wiek <21:
     print("pochodzisz z regionu USA ale masz 21 lub mniej lat wiecj nie dostajesz super ceny dla usa")
+    
+imie = input("Podaj Imię: ")
+print ("Czesc", imie)
 
-
+plec = input("Podaj swoją płeć (M/K)")
+plec = str(plec)
+if plec == "M":
+	print ("jestes menem")
+if plec == "K":
+	print ("jestes kobieta")
+else:
+    print("Błędne dane, wprowadz ponownie")
