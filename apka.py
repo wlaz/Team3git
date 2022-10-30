@@ -6,6 +6,13 @@ if wiek.isdigit() == False:
 wiek = int(wiek)
 if wiek >= 18:
     print("Witamy!")
+
+# Specjalne ceny dla osób 40+
+
+if wiek >= 40:
+    print("Mamy dla Ciebie specjalne ceny!")
+else:
+    print("Zapraszam do kasy")
 region = input("Podaj region EUR lub USA: ")
 region= str(region)
 if region == "EUR" and wiek > 18:
