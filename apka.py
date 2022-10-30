@@ -7,6 +7,12 @@ wiek = int(wiek)
 if wiek >= 18:
     print("Witamy!")
 
+płeć = input("podaj płeć: 'M' lub 'F': ")
+if płeć == 'F':
+    print("Aperol gratis")
+else:
+    print('przejdź do kasy i kup sobie Panie')
+
 # Specjalne ceny dla osób 40+
 
 if wiek >= 40:
