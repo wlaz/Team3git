@@ -18,7 +18,7 @@ if plec == "M":
 if plec == "K":
 	print ("jestes kobieta")
 else:
-    print("Błędne dane, wprowadz ponownie, błędne dane")
+    print("Błędne dane, wprowadz ponownie")
 
 
 
